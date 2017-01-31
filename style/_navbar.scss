@@ -1,0 +1,42 @@
+@media screen and (min-width:768px){
+  .navbar-brand-centered {
+    border: 0;
+    display: block;
+    left: 50%;
+    position: absolute;
+    width: 120px;
+  }
+
+  .navbar>.container .navbar-brand-centered,
+  .navbar>.container-fluid .navbar-brand-centered {
+    margin-left: -80px;
+  }
+}
+
+.navbar {
+  background-color: $white;
+  background-image: none;
+  border: 0;
+  box-shadow: none;
+  margin-bottom: 0;
+  padding-bottom: 60px;
+  padding-top: 55px;
+
+  a {
+    font-size: 12px;
+    letter-spacing: 1.5px;
+  }
+
+  li {
+    margin-right: 50px;
+    text-transform: uppercase;
+  }
+
+  img {
+    height: 31.7px;
+  }
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: $black;
+}

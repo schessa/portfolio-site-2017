@@ -1,0 +1,117 @@
+@mixin button($color) {
+  .button {
+    border-color: $color;
+    color: $color;
+  }
+}
+
+@mixin quarter-grid-items {
+  .grid-item {
+    padding-bottom: 25%;
+    width: 25%;
+
+    &.big {
+      padding-bottom: 50%;
+      width: 50%;
+    }
+  }
+}
+
+@mixin third-grid-items {
+  .grid-item {
+    padding-bottom: 33%;
+    width: 33%;
+
+    &.big {
+      padding-bottom: 66%;
+      width: 66%;
+    }
+  }
+}
+
+.portfolio-header {
+  padding-bottom: 92px;
+  padding-top: 50px;
+
+  .more,
+  .more__description p {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.portfolio .grid-item .info__description {
+  font-size: 18px;
+}
+
+.more {
+  color: $grey;
+  padding-bottom: 120px;
+  padding-top: 50px;
+  width: 80%;
+
+  &__title {
+    text-align: right;
+  }
+
+  &__description {
+    line-height: 1.5;
+
+    p {
+      margin-bottom: 40px;
+    }
+  }
+}
+
+.unum {
+  @include button($black);
+}
+
+.illustration {
+  @include button($orange);
+}
+
+.brand-new-theater,
+.fitster {
+  @include quarter-grid-items;
+  .grid {
+    width: 80%;
+  }
+}
+
+.mood-feed {
+  @include third-grid-items;
+  .grid {
+    width: 60%;
+  }
+}
+
+.troy-camp {
+  @include button($maroon);
+}
+
+.venture-city {
+  @include button($fuschia);
+  @include third-grid-items;
+  .grid {
+    margin-left: 40%;
+  }
+}
+
+.resume-portfolio {
+  background-color: $purplish;
+  padding-bottom: 62.5px;
+
+  .large-text {
+    color: $white;
+  }
+
+  .logo {
+    padding-top: 240px;
+    text-align: center;
+
+    img {
+      width: 170px;
+    }
+  }
+}

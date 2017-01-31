@@ -1,0 +1,87 @@
+.grid-item {
+  background-color: $purplish;
+  float: left;
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 20%;
+  text-align: center;
+  width: 20%;
+
+  &.big {
+    padding-bottom: 40%;
+    width: 40%;
+  }
+
+  img {
+    transition: filter .1s ease-in-out,
+                opacity .1s ease-in-out;
+    width: 100%;
+  }
+
+  .inner {
+    bottom: 0;
+    display: none;
+    height: auto;
+    left: 0;
+    margin: auto;
+    overflow: auto;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    width: 95%;
+  }
+
+  &:hover {
+    img {
+      filter: blur(5px);
+      opacity: .4;
+    }
+
+    p {
+      color: $white;
+    }
+
+    .inner {
+      display: table;
+    }
+  }
+}
+
+// Grid item details
+.info {
+  &__title {
+    font-size: 21.5px;
+    font-weight: 800;
+    letter-spacing: 2.6px;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+
+  &__description {
+    font-family: 'Merriweather';
+    font-size: 15.5px;
+    font-style: italic;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+    text-transform: lowercase;
+  }
+
+  &__year {
+    letter-spacing: 2.6px;
+  }
+}
+
+// Grid Item animate
+.isotope,
+.isotope .isotope-item {
+  transition-duration: .8s;
+}
+
+.isotope {
+  transition-property: height, width;
+
+  .isotope-item {
+    transition-property: transform, opacity;
+  }
+}

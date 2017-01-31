@@ -1,0 +1,36 @@
+{
+  "name": "schessa-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "./start.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MakeAppsDevshop/schessa-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MakeAppsDevshop/schessa-portfolio/issues"
+  },
+  "homepage": "https://github.com/MakeAppsDevshop/schessa-portfolio#readme",
+  "devDependencies": {
+    "babel-eslint": "^7.1.0",
+    "easyimage": "^2.1.0",
+    "eslint": "^3.6.0",
+    "glob": "^7.1.1",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-livereload": "^3.8.1",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "htmlhint": "^0.9.13"
+  },
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
