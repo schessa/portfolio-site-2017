@@ -1,4 +1,4 @@
-# [schessa.com](http://schessa.com)
+# [schessa.com](https://schessa.com)
 
 ## Run locally
 
