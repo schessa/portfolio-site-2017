@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MakeAppsDevshop/schessa-portfolio.git"
+    "url": "git+https://github.com/schessa/portfolio-site-2017.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/MakeAppsDevshop/schessa-portfolio/issues"
+    "url": "https://github.com/schessa/portfolio-site-2017/issues"
   },
-  "homepage": "https://github.com/MakeAppsDevshop/schessa-portfolio#readme",
+  "homepage": "https://github.com/schessa/portfolio-site-2017#readme",
   "devDependencies": {
     "babel-eslint": "^7.2.3",
     "easyimage": "^2.2.1",
