@@ -33,16 +33,16 @@ gulp.task('watch', function() {
   const onChange = e =>
     console.log('File ' + e.path + ' was ' + e.type + ', running tasks...');
   gulp
-    .watch(scssDir, ['sass'])
+    .watch(scssDir, gulp.series('sass'))
     .on('change', onChange);
   gulp
-    .watch(htmlFiles, ['reload'])
+    .watch(htmlFiles, gulp.series('reload'))
     .on('change', onChange);
 });
 
-gulp.task('default', ['sass', 'watch']);
+gulp.task('default', gulp.series('sass', 'watch'));
 
-gulp.task('prod', [], function () {
+gulp.task('prod', function () {
   return gulp
     .src(scssEntry)
     .pipe(sass({ outputStyle: 'compressed' }))
