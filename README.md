@@ -4,12 +4,12 @@
 
 First, install dependencies:
 ```
-npm install
+yarn install
 ```
 
 Then, every time you make changes, restart your local server:
 ```
-npm start
+yarn start
 ```
 
 Then browse to [localhost:3000](http://localhost:3000).
@@ -18,7 +18,7 @@ Then browse to [localhost:3000](http://localhost:3000).
 
 First, install the Firebase CLI and log in to Firebase:
 ```
-npm install -g firebase-tools
+yarn global add firebase-tools
 firebase login
 ```
 
