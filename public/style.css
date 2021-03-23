@@ -174,21 +174,6 @@ button,
   padding-bottom: 137.5px;
   padding-top: 175px; }
 
-.resume {
-  background-color: #efdcff;
-  max-width: 100%;
-  padding-bottom: 167px;
-  padding-top: 155px; }
-  .resume-btn {
-    border-color: #fff;
-    color: #fff; }
-    .resume-btn:first-child {
-      margin-bottom: 27.5px; }
-    .resume-btn,
-    .resume-btn a {
-      color: #fff;
-      text-decoration: none; }
-
 .contact {
   background-color: #814fab;
   padding-bottom: 70px;
@@ -289,7 +274,7 @@ button,
   .resume-portfolio .large-text {
     color: #fff; }
   .resume-portfolio .logo {
-    padding-top: 240px;
+    padding-top: 62.5px;
     text-align: center; }
     .resume-portfolio .logo img {
       width: 170px; }
