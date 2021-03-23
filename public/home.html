@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Schessa</title>
+
+  <!-- Bootstrap -->
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+      crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+      integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+      crossorigin="anonymous">
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Isotope. Put this in the head because the site doesn't display well without it being loaded -->
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script src="https://unpkg.com/isotope-layout@3.0/dist/isotope.pkgd.min.js"></script>
+  <script src="https://unpkg.com/isotope-packery@2.0/packery-mode.pkgd.min.js"></script>
+  <script src="https://unpkg.com/jquery-smooth-scroll@2.0.0"></script>
+  <script src="index.js"></script>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-default" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-brand-centered">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+        <div class="navbar-brand navbar-brand-centered">
+          <a href="home.html">
+            <img src="images/logo.svg" alt="Logo" />
+          </a>
+        </div>
+      </div>
+
+      <div class="collapse navbar-collapse" id="navbar-brand-centered">
+        <ul class="nav navbar-nav">
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="resume.pdf" target="_blank">Resume</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+  </nav>
+
+  <!-- Sections -->
+  <section class="grid">
+    <a href="portfolio.html#starbucks" class="big grid-item">
+      <img src="images/thumbnails/starbucks-2.jpg" alt="Starbucks × Tastemade" />
+      <span class="inner">
+        <span class="info">
+          <p class="info__title">Starbucks × Tastemade</p>
+          <p class="info__description">Print design + art direction + illustration</p>
+        </span>
+      </span>
+    </a>
+    <a href="portfolio.html#illustration" class="grid-item">
+      <img src="images/thumbnails/illustration-4.jpg" alt="Illustration" />
+      <span class="inner">
+        <span class="info">
+          <p class="info__title">Illustration</p>
+          <p class="info__description">Watercolor</p>
+        </span>
+      </span>
+    </a>
+    <a href="portfolio.html#venture-city" class="grid-item">
+      <img src="images/thumbnails/venturecity-1.jpg" alt="Venture City" />
+      <span class="inner">
+        <span class="info">
+          <p class="info__title">Venture City</p>
+          <p class="info__description">UI/UX + brand</p>
+        </span>
+      </span>
+    </a>
+    <a href="portfolio.html#identity" class="grid-item">
+      <img src="images/thumbnails/identity-3.jpg" alt="Studio AGA" />
+      <span class="inner">
+        <span class="info">
+          <p class="info__title">Studio AGA</p>
+          <p class="info__description">Identity design</p>
+        </span>
+      </span>
+    </a>
+    <a href="portfolio.html#identity" class="grid-item">
+      <img src="images/thumbnails/identity-5.jpg" alt="Copper Public House" />
+      <span class="inner">
+        <span class="info">
+          <p class="info__title">Copper Public House</p>
+          <p class="info__description">Identity design</p>
+        </span>
+      </span>
+    </a>
+    <a href="portfolio.html#identity" class="grid-item">
+      <img src="images/thumbnails/identity-8.jpg" alt="Antilipsi" />
+      <span class="inner">
+        <span class="info">
+          <p class="info__title">Antilipsi</p>
+          <p class="info__description">Identity design</p>
+        </span>
+      </span>
+    </a>
+    <a href="portfolio.html#fitster" class="grid-item">
+      <img src="images/thumbnails/fitster-5.jpg" alt="Fitster" />
+      <span class="inner">
+        <span class="info">
+          <p class="info__title">Fitster</p>
+          <p class="info__description">UI/UX + identity + web + print</p>
+        </span>
+      </span>
+    </a>
+    <a href="portfolio.html#mood-feed" class="grid-item">
+      <img src="images/thumbnails/moodfeed-1.jpg" alt="Mood Feed" />
+      <span class="inner">
+        <span class="info">
+          <p class="info__title">Mood Feed</p>
+          <p class="info__description">UI/UX</p>
+        </span>
+      </span>
+    </a>
+    <a href="portfolio.html#troy-camp" class="grid-item">
+      <img src="images/thumbnails/troycamp-1.jpg" alt="Troy Camp" />
+      <span class="inner">
+        <span class="info">
+          <p class="info__title">Troy Camp</p>
+          <p class="info__description">Brand + print + merch + web</p>
+        </span>
+      </span>
+    </a>
+    <a href="portfolio.html#unum" class="big grid-item">
+      <img src="images/thumbnails/unum-2.jpg" alt="UNUM" />
+      <span class="inner">
+        <span class="info">
+          <p class="info__title">UNUM</p>
+          <p class="info__description">UI/UX + brand + print</p>
+        </span>
+      </span>
+    </a>
+    <a href="portfolio.html#illustration" class="grid-item">
+      <img src="images/thumbnails/illustration-2.jpg" alt="Nova Forma" />
+      <span class="inner">
+        <span class="info">
+          <p class="info__title">Nova Forma</p>
+          <p class="info__description">Illustration</p>
+        </span>
+      </span>
+    </a>
+    <a href="portfolio.html#starbucks" class="grid-item">
+      <img src="images/thumbnails/starbucks-6.jpg" alt="Starbucks × Tastemade" />
+      <span class="inner">
+        <span class="info">
+          <p class="info__title">Starbucks × Tastemade</p>
+          <p class="info__description">Print design + art direction + illustration</p>
+        </span>
+      </span>
+    </a>
+    <a href="portfolio.html#illustration" class="grid-item">
+      <img src="images/thumbnails/illustration-1.jpg" alt="Amazebowls" />
+      <span class="inner">
+        <span class="info">
+          <p class="info__title">Amazebowls</p>
+          <p class="info__description">Illustration + brand + print</p>
+        </span>
+      </span>
+    </a>
+    <a href="portfolio.html#identity" class="grid-item">
+      <img src="images/thumbnails/identity-10.jpg" alt="Los Angeles Anime Film Festival 2018" />
+      <span class="inner">
+        <span class="info">
+          <p class="info__title">Los Angeles Anime Film Festival 2018</p>
+          <p class="info__description">Identity design</p>
+        </span>
+      </span>
+    </a>
+  </section>
+  <section class="about" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5 col-lg-offset-1 col-md-6">
+          <p class="large-text">graphic. artist.</p>
+        </div>
+        <div class="col-md-5">
+          <p>
+            I like wearing bold patterns and many of my favorite inspirational quotes
+            come from children's books. I believe in “surprise and delight” as a
+            core prinicipal of design, and I’m drawn to brands who consider social
+            good a key component of their business model. Trained as a fine artist
+            and then a designer, illustration and hand-lettering are often at the
+            core of my brand design. Self-taught as a UI/UX designer, I am always
+            experimenting with new ways to create a memorable in-app experience.
+            You’ll find more of my work <a href="portfolio.html">here.</a><br />
+            Thanks for peeking!
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="resume">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5 col-lg-offset-1 col-md-6">
+          <p class="large-text">resume.</p>
+        </div>
+        <div class="col-md-5">
+          <button class="resume-btn"><a href="resume.pdf" target="_blank">Printer-friendly</a></button>
+          <button class="resume-btn"><a href="https://www.linkedin.com/in/schessa">LinkedIn</a></button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5 col-lg-offset-1 col-md-6">
+          <p class="large-text">say hello.</p>
+        </div>
+        <div class="col-md-5">
+          <div class="contact-button-group">
+            <a href="http://linkedin.com/in/schessa">
+              <img src="images/linkedin-button.svg" alt="LinkedIn">
+            </a>
+            <a href="mailto:schessa@gmail.com">
+              <img src="images/email-button.svg" alt="Email">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <p class="large-text">watch from afar.</p>
+        </div>
+        <div class="col-md-5">
+          <div class="contact-button-group">
+            <a href="http://instagram.com/the_schessa">
+              <img src="images/instagram-button.svg" alt="Instagram">
+            </a>
+            <a href="http://pinterest.com/ryl23">
+              <img src="images/pintrest-button.svg" alt="Pinterest">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 logo">
+          <a href="#">
+            <img src="images/logo-white.svg" alt="Logo">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+      integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+      crossorigin="anonymous"
+      async></script>
+</body>
+
+</html>
