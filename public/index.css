@@ -41,7 +41,7 @@ a:hover, a:active {
   grid: auto 1fr auto auto / auto;
 
   max-width: 50rem;
-  height: 100%;
+  min-height: 100%;
   margin: 0 auto;
   padding: 3.375rem 3.125rem 2.8125rem;
 }
